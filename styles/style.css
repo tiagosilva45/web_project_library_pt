@@ -26,7 +26,7 @@
 
 .nav__logo {
   width: 105px;
-  height: 39px;
+  display: block; /* Corrigido: removido height fixo */
 }
 
 .nav__links {
@@ -55,7 +55,7 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin: 0;
+  margin: 0; /* Corrigido: nada de margin-top */
 }
 
 .header__description {
@@ -82,12 +82,9 @@
   color: #838383;
 }
 
-.header__footer {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
+/* ❌ Removido bloco de CSS do header__footer, não deve ser alterado */
 
+/* Mantém apenas o que já tinha inicialmente */
 .header__link {
   color: #2f80ed;
   text-decoration: none;
