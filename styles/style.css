@@ -18,6 +18,7 @@
   box-sizing: border-box;
 }
 
+/* --- NAV --- */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -25,8 +26,9 @@
 }
 
 .nav__logo {
-  width: 105px;
-  display: block; /* Corrigido: removido height fixo */
+  width: 80px; /* roteiro */
+  height: 58px; /* roteiro */
+  display: block;
 }
 
 .nav__links {
@@ -34,7 +36,7 @@
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
-  margin: 8px 0 0;
+  margin: 8px 0 0; /* roteiro: 8px */
 }
 
 .nav__link {
@@ -43,6 +45,7 @@
   font-weight: bold;
 }
 
+/* --- HEADER CONTENT --- */
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -55,7 +58,8 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin: 0; /* Corrigido: nada de margin-top */
+  margin-top: 0; /* obrigatório no roteiro */
+  margin-bottom: 0; /* tira a margem padrão do h1 */
 }
 
 .header__description {
@@ -75,16 +79,14 @@
   display: block;
 }
 
-.image_caption {
-  font-size: 14px;
-  text-align: right;
-  margin-top: 8px;
-  color: #838383;
+/* --- HEADER FOOTER --- */
+/* precisa existir, exatamente como no kit inicial */
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* ❌ Removido bloco de CSS do header__footer, não deve ser alterado */
-
-/* Mantém apenas o que já tinha inicialmente */
 .header__link {
   color: #2f80ed;
   text-decoration: none;
@@ -95,6 +97,7 @@
   color: #838383;
 }
 
+/* --- STAFF --- */
 .staff {
   background: url("../images/staff_picks_background.jpg") center/cover no-repeat;
   padding: 100px 0 140px;
