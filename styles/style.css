@@ -58,8 +58,7 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 0; /* obrigatório no roteiro */
-  margin-bottom: 0; /* tira a margem padrão do h1 */
+  margin: 0 auto;
 }
 
 .header__description {
