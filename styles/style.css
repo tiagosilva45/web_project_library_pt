@@ -104,40 +104,31 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 100px; /* valor fixo */
-  padding-bottom: 80px; /* valor fixo, diferente do padding-top */
+  padding-top: 60px; /* conforme roteiro */
+  padding-bottom: 40px; /* ajuste para 40px no padding-bottom */
   text-align: center;
 }
 
 .staff__title {
-  text-align: center;
   font-size: 44px;
   line-height: 52px;
   font-weight: 400;
-  margin-top: 0;
-  margin-right: 0; /* explicitamente 0 */
-  margin-left: 0; /* explicitamente 0 */
-  margin-bottom: 24px; /* valor fixo */
+  margin: 0 0 20px 0; /* margem direita e esquerda zeradas, margin-bottom 20px */
   color: #ffffff;
+  text-align: center;
 }
 
 .staff__subtitle {
-  text-align: center;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin-top: 16px; /* valor fixo */
-  margin-right: 0; /* explicitamente 0 */
-  margin-left: 0; /* explicitamente 0 */
-  margin-bottom: 32px; /* valor fixo */
+  margin: 0 0 32px 0; /* margem topo 0, margin-bottom 32px, margem lateral 0 */
   color: #ffffff;
 }
 
 .staff__cards {
   max-width: 760px;
-  margin-top: 40px; /* valor fixo */
-  margin-right: auto; /* centralizado */
-  margin-left: auto; /* centralizado */
+  margin: 0 auto 40px auto; /* margin-top 0, margin-bottom 40px, centrado */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -150,11 +141,8 @@
   background-color: #ffffff;
   width: 360px;
   height: 420px;
-  padding-top: 20px; /* valor fixo */
-  padding-right: 20px; /* valor fixo */
-  padding-bottom: 20px; /* valor fixo */
-  padding-left: 20px; /* valor fixo */
-  border-radius: 8px; /* valor fixo */
+  padding: 24px; /* padding corrigido para 24px */
+  border-radius: 6px; /* border-radius corrigido para 6px */
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -162,26 +150,19 @@
 }
 
 .card__title {
-  font-size: 22px;
-  line-height: 28px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 20px;
+  font-size: 22px; /* tamanho conforme roteiro */
+  line-height: 28px; /* line-height ajustado */
+  margin: 0 0 16px 0; /* margin-bottom 16px, lateral zero */
 }
 
 .card__text {
-  margin-top: 20px;
-  margin-right: 16px;
-  margin-left: 16px;
-  margin-bottom: 24px;
+  font-size: 16px; /* adicionei para garantir */
+  line-height: 24px;
+  margin: 16px 0 24px 0; /* margin-top 16px, margin-bottom 24px, lateral zero */
 }
 
 .card__footer {
-  margin-top: auto; /* manter como estava para empurrar pro fim */
-  margin-right: 16px;
-  margin-left: 16px;
-  margin-bottom: 16px;
+  margin: 0 0 20px 0; /* margin-bottom 20px, lateral zero */
   font-size: 14px;
   line-height: 20px;
   color: #838383;
