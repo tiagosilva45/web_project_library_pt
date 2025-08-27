@@ -104,36 +104,36 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 60px; /* conforme roteiro */
-  padding-bottom: 60px; /* conforme roteiro */
+  padding-top: 60px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
 .staff__title {
-  font-size: 44px; /* conforme roteiro */
-  line-height: 52px; /* conforme roteiro */
+  font-size: 44px;
+  line-height: 52px;
   font-weight: 400;
   margin-top: 0;
   margin-right: 0;
-  margin-bottom: 20px; /* conforme roteiro */
+  margin-bottom: 18px;
   margin-left: 0;
   color: #ffffff;
   text-align: center;
 }
 
 .staff__subtitle {
-  font-size: 20px; /* conforme roteiro */
-  line-height: 30px; /* conforme roteiro */
+  font-size: 20px;
+  line-height: 30px;
   font-weight: 400;
-  margin: 0 0 40px 0; /* conforme roteiro (top right bottom left) */
+  margin: 0 0 38px 0;
   color: #ffffff;
   text-align: center;
 }
 
 .staff__cards {
   max-width: 760px;
-  margin-top: 0; /* conforme roteiro */
-  margin-bottom: 40px; /* conforme roteiro */
+  margin-top: 0;
+  margin-bottom: 38px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -148,8 +148,8 @@
   background-color: #ffffff;
   width: 360px;
   height: 420px;
-  border-radius: 10px; /* conforme roteiro */
-  padding: 30px; /* conforme roteiro */
+  border-radius: 8px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -164,19 +164,19 @@
 }
 
 .card__title {
-  font-size: 22px; /* conforme roteiro */
-  line-height: 26px; /* conforme roteiro */
+  font-size: 22px;
+  line-height: 28px;
   font-weight: 700;
-  margin: 0 0 20px 0; /* conforme roteiro */
+  margin: 0 0 20px 0;
 }
 
 .card__text {
   font-size: 16px;
   line-height: 24px;
-  margin-top: 0; /* conforme roteiro */
-  margin-left: 0; /* conforme roteiro */
-  margin-right: 0; /* conforme roteiro */
-  margin-bottom: 20px; /* conforme roteiro */
+  margin-top: 20px;
+  margin-bottom: 24px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .card__footer {
@@ -184,7 +184,7 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
-  margin-bottom: 0; /* conforme roteiro */
-  margin-left: 0; /* conforme roteiro */
-  margin-right: 0; /* conforme roteiro */
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
