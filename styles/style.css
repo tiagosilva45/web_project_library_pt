@@ -104,31 +104,38 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 90px 0; /* corrigido para 90px */
+  padding-top: 60px; /* conforme roteiro */
+  padding-bottom: 60px; /* conforme roteiro */
   text-align: center;
 }
 
 .staff__title {
-  text-align: center;
-  font-size: 44px;
-  line-height: 52px;
+  font-size: 44px; /* conforme roteiro */
+  line-height: 52px; /* conforme roteiro */
   font-weight: 400;
-  margin: 0 40px 16px 40px; /* margens laterais 40px, margin-bottom 16px */
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 20px; /* conforme roteiro */
+  margin-left: 0;
   color: #ffffff;
+  text-align: center;
 }
 
 .staff__subtitle {
-  text-align: center;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 20px; /* conforme roteiro */
+  line-height: 30px; /* conforme roteiro */
   font-weight: 400;
-  margin: 0 40px 56px 40px; /* margem superior 0, lateral 40px, inferior 56px */
+  margin: 0 0 40px 0; /* conforme roteiro (top right bottom left) */
   color: #ffffff;
+  text-align: center;
 }
 
 .staff__cards {
   max-width: 760px;
-  margin: 56px auto; /* Centraliza horizontalmente */
+  margin-top: 0; /* conforme roteiro */
+  margin-bottom: 40px; /* conforme roteiro */
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -141,8 +148,8 @@
   background-color: #ffffff;
   width: 360px;
   height: 420px;
-  padding: 24px; /* corrigido para 24px */
-  border-radius: 8px; /* adicionado border-radius */
+  border-radius: 10px; /* conforme roteiro */
+  padding: 30px; /* conforme roteiro */
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -157,18 +164,27 @@
 }
 
 .card__title {
-  font-size: 20px; /* corrigido para 20px */
-  line-height: 28px; /* corrigido para 28px */
-  margin: 0 0 16px 0; /* margin-bottom 16px */
+  font-size: 22px; /* conforme roteiro */
+  line-height: 26px; /* conforme roteiro */
+  font-weight: 700;
+  margin: 0 0 20px 0; /* conforme roteiro */
 }
 
 .card__text {
-  margin: 0 0 24px 0; /* margin-top 0, margin-bottom 24px, laterais 0 */
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0; /* conforme roteiro */
+  margin-left: 0; /* conforme roteiro */
+  margin-right: 0; /* conforme roteiro */
+  margin-bottom: 20px; /* conforme roteiro */
 }
 
 .card__footer {
-  margin: 0; /* remove todas margens */
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
+  margin-bottom: 0; /* conforme roteiro */
+  margin-left: 0; /* conforme roteiro */
+  margin-right: 0; /* conforme roteiro */
 }
