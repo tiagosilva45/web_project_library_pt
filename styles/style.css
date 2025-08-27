@@ -104,8 +104,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 100px; /* Ajustado */
-  padding-bottom: 100px; /* Ajustado */
+  padding-top: 100px; /* valor fixo */
+  padding-bottom: 80px; /* valor fixo, diferente do padding-top */
   text-align: center;
 }
 
@@ -115,7 +115,9 @@
   line-height: 52px;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 24px; /* Ajustado */
+  margin-right: 0; /* explicitamente 0 */
+  margin-left: 0; /* explicitamente 0 */
+  margin-bottom: 24px; /* valor fixo */
   color: #ffffff;
 }
 
@@ -124,14 +126,18 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 16px 0 32px; /* Ajustado */
+  margin-top: 16px; /* valor fixo */
+  margin-right: 0; /* explicitamente 0 */
+  margin-left: 0; /* explicitamente 0 */
+  margin-bottom: 32px; /* valor fixo */
   color: #ffffff;
 }
 
-/* container flexbox */
 .staff__cards {
   max-width: 760px;
-  margin: 40px auto 0; /* Ajustado (margin-top 40px) */
+  margin-top: 40px; /* valor fixo */
+  margin-right: auto; /* centralizado */
+  margin-left: auto; /* centralizado */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -140,41 +146,49 @@
   padding: 0;
 }
 
-/* cada card */
 .card {
   background-color: #ffffff;
   width: 360px;
   height: 420px;
-  padding: 24px; /* Ajustado */
-  border-radius: 8px; /* Adicionado */
+  padding-top: 20px; /* valor fixo */
+  padding-right: 20px; /* valor fixo */
+  padding-bottom: 20px; /* valor fixo */
+  padding-left: 20px; /* valor fixo */
+  border-radius: 8px; /* valor fixo */
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   text-align: left;
 }
 
+.card__title {
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.card__text {
+  margin-top: 20px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 24px;
+}
+
+.card__footer {
+  margin-top: auto; /* manter como estava para empurrar pro fim */
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #838383;
+}
 .card__content {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.card__title {
-  font-size: 20px; /* Ajustado */
-  line-height: 28px; /* Ajustado */
-  margin: 0 0 16px 0; /* Ajustado */
-}
-
-.card__text {
-  margin: 16px 16px 24px 16px; /* Ajustado: top, right, bottom, left */
-  font-size: 16px; /* Adicionado para consistência */
-  line-height: 24px; /* Adicionado para consistência */
-}
-
-.card__footer {
-  margin: 0 16px 16px 16px; /* Ajustado */
-  font-size: 14px;
-  line-height: 20px;
-  color: #838383;
 }
