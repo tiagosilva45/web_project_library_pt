@@ -26,9 +26,8 @@
 }
 
 .nav__logo {
-  width: 80px; /* corrigido */
-  height: 80px; /* corrigido */
-  display: block;
+  width: 80px;
+  height: 58px;
 }
 
 .nav__links {
@@ -80,12 +79,13 @@
   display: block;
 }
 
-/* --- HEADER FOOTER --- */
-/* NÃO MODIFICADO — conforme kit inicial */
-.header__footer {
+.header__footer .header__footer {
+  margin-top: auto;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
 }
 
 .header__link {
