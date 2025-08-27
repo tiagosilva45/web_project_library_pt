@@ -104,7 +104,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 100px 0; /* roteiro */
+  padding-top: 100px; /* roteiro */
+  padding-bottom: 140px; /* roteiro */
 }
 
 .staff__title {
@@ -142,7 +143,7 @@
   width: 360px;
   height: 420px;
   border-radius: 8px; /* roteiro */
-  padding: 24px; /* roteiro */
+  padding: 32px 40px 20px 32px; /* roteiro */
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -157,21 +158,21 @@
 }
 
 .card__title {
-  font-size: 24px; /* roteiro */
-  line-height: 32px; /* roteiro */
+  font-size: 22px; /* roteiro */
+  line-height: 28px; /* roteiro */
   font-weight: 700;
-  margin: 0 0 16px; /* roteiro */
+  margin: 0 0 20px; /* roteiro */
 }
 
 .card__text {
   font-size: 16px;
   line-height: 24px;
-  margin: 16px 0; /* roteiro */
+  margin: 20px 0 24px; /* roteiro */
 }
 
 .card__footer {
-  margin: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin: auto 0 0; /* roteiro pede empurrar pro final */
 }
