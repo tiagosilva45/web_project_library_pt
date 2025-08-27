@@ -35,7 +35,7 @@
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
-  margin: 8px 0 0;
+  margin: 8px 0 0; /* conforme roteiro */
 }
 
 .nav__link {
@@ -57,7 +57,7 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 128px;
+  margin-top: 128px; /* conforme roteiro */
   margin-bottom: 0;
 }
 
@@ -104,32 +104,30 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 100px; /* corrigido */
-  padding-bottom: 120px; /* corrigido */
-  text-align: center;
+  padding: 100px 0; /* roteiro */
 }
 
 .staff__title {
+  text-align: center;
   font-size: 44px;
   line-height: 52px;
   font-weight: 400;
-  margin: 0 0 24px 0; /* corrigido */
+  margin: 0 0 24px;
   color: #ffffff;
-  text-align: center;
 }
 
 .staff__subtitle {
+  text-align: center;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0 0 60px 0; /* corrigido */
+  margin: 0;
   color: #ffffff;
-  text-align: center;
 }
 
 .staff__cards {
   max-width: 760px;
-  margin: 0 auto; /* corrigido */
+  margin: 68px auto 0; /* roteiro */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -138,12 +136,13 @@
   padding: 0;
 }
 
+/* --- CARD --- */
 .card {
   background-color: #ffffff;
   width: 360px;
   height: 420px;
-  border-radius: 10px; /* corrigido */
-  padding: 32px; /* corrigido */
+  border-radius: 8px; /* roteiro */
+  padding: 24px; /* roteiro */
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -158,24 +157,21 @@
 }
 
 .card__title {
-  font-size: 24px; /* corrigido */
-  line-height: 32px; /* corrigido */
+  font-size: 24px; /* roteiro */
+  line-height: 32px; /* roteiro */
   font-weight: 700;
-  margin: 0 0 16px 0; /* corrigido */
+  margin: 0 0 16px; /* roteiro */
 }
 
 .card__text {
   font-size: 16px;
   line-height: 24px;
-  margin: 0 0 32px 0; /* corrigido */
+  margin: 16px 0; /* roteiro */
 }
 
 .card__footer {
+  margin: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  margin-top: auto;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
