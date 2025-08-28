@@ -1,3 +1,4 @@
+/* ----------------- GLOBAL ----------------- */
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -7,6 +8,7 @@
   line-height: 20px;
 }
 
+/* ----------------- HEADER ----------------- */
 .header {
   display: flex;
   flex-direction: column;
@@ -39,7 +41,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -57,15 +59,14 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 128px;
-  margin-bottom: 0;
+  margin: 128px 0 0;
 }
 
 .header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
+  margin: 32px 0 0;
 }
 
 .header__visual {
@@ -79,18 +80,13 @@
   display: block;
 }
 
+/* --- FOOTER (dentro do header) --- */
 .header__footer {
   margin-top: auto;
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
 }
 
 .header__address {
@@ -98,7 +94,12 @@
   color: #838383;
 }
 
-/* --- STAFF SECTION --- */
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+/* ----------------- STAFF SECTION ----------------- */
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
@@ -113,15 +114,14 @@
   line-height: 52px;
   font-weight: 400;
   margin: 0 0 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .staff__subtitle {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
   margin: 0;
-  color: #ffffff;
+  color: #fff;
 }
 
 .staff__cards {
@@ -137,41 +137,174 @@
 
 /* --- CARD --- */
 .card {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 360px;
   height: 420px;
-  border-radius: 6px; /* roteiro pede 6px */
-  padding: 32px 40px 20px 32px; /* padding exato do roteiro */
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   text-align: left;
+  box-sizing: border-box;
 }
 
 .card__content {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .card__title {
-  font-size: 20px; /* roteiro pede 20px */
-  line-height: 30px; /* roteiro pede 30px */
+  font-size: 20px;
+  line-height: 30px;
   font-weight: 700;
-  margin: 0; /* sem margem extra */
+  margin: 0;
 }
 
 .card__text {
   font-size: 16px;
   line-height: 24px;
-  margin: 20px 0 0; /* roteiro pede só margin-top */
+  margin: 20px 0 0;
 }
 
 .card__footer {
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin: auto 0 0;
+}
+
+/* ----------------- EVENTS SECTION ----------------- */
+.events {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 80px 120px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
   margin: 0;
-  margin-top: auto;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin: 32px 0 0;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin: 0 0 4px;
+}
+
+.event-info__icon {
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+/* --- EVENTS COVER + PERSONS --- */
+.events__cover {
+  flex-basis: 780px;
+  flex-shrink: 0;
+  max-width: 780px;
+  position: relative; /* importante */
+}
+
+.events__image {
+  max-width: 100%;
+}
+
+/* Base da pessoa */
+.person {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person__caption {
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.person__image {
+  border-radius: 50%;
+  border: 2px solid #2f80ed; /* azul do roteiro */
+  display: block;
+}
+
+/* Tamanhos */
+.person__image_size_l {
+  width: 120px;
+  height: 120px;
+}
+
+.person__image_size_m {
+  width: 100px;
+  height: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+  height: 80px;
+}
+
+/* Posições exatas do roteiro */
+.person_name_feynman {
+  top: 30px;
+  right: 319px;
+}
+
+.person_name_burbidge {
+  top: 96px;
+  right: 121px;
+}
+
+.person_name_cannon {
+  bottom: 18px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  bottom: 82px;
+  left: 142px;
+}
+
+.person_name_tarter {
+  top: 75px;
+  left: 159px;
 }
