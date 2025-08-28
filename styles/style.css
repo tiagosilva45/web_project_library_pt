@@ -7,7 +7,6 @@
   font-size: 16px;
   line-height: 20px;
 }
-
 /* ----------------- HEADER ----------------- */
 .header {
   display: flex;
@@ -18,9 +17,7 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
-}
-
-/* --- NAV --- */
+} /* --- NAV --- */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -45,7 +42,6 @@
   text-decoration: none;
   font-weight: bold;
 }
-
 /* --- HEADER CONTENT --- */
 .header__content {
   display: flex;
@@ -79,12 +75,12 @@
   height: auto;
   display: block;
 }
-
 /* --- FOOTER (dentro do header) --- */
 .header__footer {
   margin-top: auto;
   width: 100%;
   display: flex;
+  align-items: center; /* 👈 precisa estar aqui */
   justify-content: flex-end;
   box-sizing: border-box;
 }
@@ -98,7 +94,6 @@
   color: #2f80ed;
   text-decoration: none;
 }
-
 /* ----------------- STAFF SECTION ----------------- */
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
@@ -134,7 +129,6 @@
   list-style-type: none;
   padding: 0;
 }
-
 /* --- CARD --- */
 .card {
   background-color: #fff;
@@ -233,7 +227,6 @@
   color: #2f80ed;
   text-decoration: none;
 }
-
 /* --- EVENTS COVER + PERSONS --- */
 .events__cover {
   flex-basis: 780px;
@@ -245,7 +238,6 @@
 .events__image {
   max-width: 100%;
 }
-
 /* Base da pessoa */
 .person {
   position: absolute;
@@ -266,13 +258,11 @@
   border: 2px solid #2f80ed; /* azul do roteiro */
   display: block;
 }
-
 /* Tamanhos */
 .person__image_size_l {
   width: 120px;
   height: 120px;
 }
-
 .person__image_size_m {
   width: 100px;
   height: 100px;
@@ -282,7 +272,6 @@
   width: 80px;
   height: 80px;
 }
-
 /* Posições exatas do roteiro */
 .person_name_feynman {
   top: 30px;
