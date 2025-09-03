@@ -6,6 +6,8 @@
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  background-color: #ffffff; /* fundo principal */
+  color: #000000; /* texto principal */
 }
 
 /* ----------------- HEADER ----------------- */
@@ -20,18 +22,15 @@
   box-sizing: border-box;
 }
 
-/* --- NAV --- */
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .nav__logo {
   width: 58px;
   height: 80px;
 }
-
 .nav__links {
   display: flex;
   column-gap: 20px;
@@ -39,21 +38,18 @@
   padding: 0;
   margin: 8px 0 0;
 }
-
 .nav__link {
-  color: #000;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* --- HEADER CONTENT --- */
 .header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
 }
-
 .header__title {
   max-width: 635px;
   font-size: 62px;
@@ -61,18 +57,15 @@
   font-weight: 500;
   margin: 128px 0 0;
 }
-
 .header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
 }
-
 .header__visual {
   max-width: 636px;
 }
-
 .header__image {
   max-width: 636px;
   width: 100%;
@@ -80,7 +73,6 @@
   display: block;
 }
 
-/* --- FOOTER (dentro do header) --- */
 .header__footer {
   margin-top: auto;
   width: 100%;
@@ -89,14 +81,12 @@
   justify-content: flex-end;
   box-sizing: border-box;
 }
-
 .header__address {
   margin: 0;
   color: #838383;
 }
-
 .header__link {
-  color: #2f80ed;
+  color: #2f80ed; /* link azul */
   text-decoration: none;
 }
 
@@ -109,22 +99,19 @@
   padding: 100px 0 140px;
   text-align: center;
 }
-
 .staff__title {
   font-size: 44px;
   line-height: 52px;
   font-weight: 400;
   margin: 0 0 24px;
-  color: #fff;
+  color: #ffffff; /* texto branco */
 }
-
 .staff__subtitle {
   font-size: 20px;
   line-height: 30px;
   margin: 0;
-  color: #fff;
+  color: #ffffff;
 }
-
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
@@ -135,10 +122,8 @@
   list-style-type: none;
   padding: 0;
 }
-
-/* --- CARD --- */
 .card {
-  background-color: #fff;
+  background-color: #ffffff;
   width: 360px;
   height: 420px;
   border-radius: 6px;
@@ -148,26 +133,17 @@
   text-align: left;
   box-sizing: border-box;
 }
-
-.card__content {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
 .card__title {
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
   margin: 0;
 }
-
 .card__text {
   font-size: 16px;
   line-height: 24px;
   margin: 20px 0 0;
 }
-
 .card__footer {
   font-size: 14px;
   line-height: 20px;
@@ -181,39 +157,33 @@
   justify-content: space-between;
   align-items: start;
   padding: 100px 0 120px 80px;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; /* fundo contraste */
   box-sizing: border-box;
 }
-
 .events__content {
   flex-basis: 580px;
 }
-
 .events__heading {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   margin: 0;
 }
-
 .events__title {
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
   margin: 32px 0 0;
 }
-
 .events__info-section {
   margin: 32px 0 0;
 }
-
 .event-info__item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
-
 .event-info__icon {
   margin-right: 12px;
   width: 24px;
@@ -221,24 +191,20 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .event-info__text {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   margin: 0;
 }
-
 .events__description {
   margin: 40px 0 60px;
 }
-
 .events__more {
-  color: #2f80ed;
+  color: #2f80ed; /* link azul */
   text-decoration: none;
 }
 
-/* --- EVENTS COVER + PERSONS --- */
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -246,11 +212,9 @@
   max-width: 780px;
   position: relative;
 }
-
 .events__image {
   max-width: 100%;
 }
-
 .person {
   position: absolute;
   display: flex;
@@ -258,55 +222,126 @@
   flex-direction: column;
   gap: 10px;
 }
-
 .person__caption {
   font-size: 14px;
   line-height: 1.2;
   margin: 0;
   text-align: center;
 }
-
 .person__image {
   max-width: 100%;
   border-radius: 50%;
   border: 2px solid #2f80ed;
   display: block;
 }
-
 .person__image_size_l {
   width: 140px;
 }
-
 .person__image_size_m {
   width: 100px;
 }
-
 .person__image_size_s {
   width: 80px;
 }
-
-/* Posições */
+/* posições */
 .person_name_feynman {
   top: -30px;
-  right: 319px;
+  left: 319px;
 }
-
 .person_name_burbidge {
   top: 96px;
   right: 125px;
 }
-
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
 }
-
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
 }
-
 .person_name_tarter {
   top: 79px;
   left: 159px;
+}
+
+/* ----------------- MEMBERSHIP SECTION ----------------- */
+.membership {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #057bf2; /* fundo azul */
+  color: #ffffff; /* texto branco */
+}
+.membership__title {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  margin: 0 0 60px;
+}
+.membership__steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.step {
+  max-width: 200px;
+}
+.step__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0 0 16px;
+}
+.step__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+/* ----------------- FOOTER ----------------- */
+.footer {
+  background-color: #1f1f1f; /* fundo do rodapé */
+  color: #ffffff;
+  padding: 60px 80px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+.footer__column-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__list-item {
+  margin-bottom: 16px;
+}
+.footer__column-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+.footer__copyright {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
 }
